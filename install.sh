@@ -10,5 +10,5 @@ cd /root/test_stress/
 
 for (( i=1; i <= 10; i++ ))
 do
-docker build .
+docker build . &&
 done
