@@ -6,7 +6,7 @@ FROM ubuntu:latest
 
 #
 # Update the image to the latest packages
-RUN apt-get update && apt-get upgrade -y
+#RUN apt-get update && apt-get upgrade -y
 
 ADD ./ddos/ddos /tmp/ddos/ddos
 
